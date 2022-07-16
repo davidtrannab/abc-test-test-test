@@ -1,0 +1,53 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="ALupMartV2.Menu" type="Module" version="1.0.0">
+  <friendlyName>ALupMartV2.Menu</friendlyName>
+  <description />
+  <owner>
+    <name />
+    <organization />
+    <url />
+    <email />
+  </owner>
+  <license>The license for this package is not currently included within the installation file, please check with the vendor for full license details.</license>
+  <releaseNotes />
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>ALupMartV2.Menu</moduleName>
+        <foldername>ALupMartV2.Menu</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>ALupMartV2.Menu</friendlyName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/ALupMartV2.Menu/ViewMenu.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\ALupMartV2.Menu</basePath>
+        <file>
+          <name>ViewMenu.ascx</name>
+        </file>
+        <file>
+          <name>ViewMenu.ascx.cs</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>
